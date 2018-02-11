@@ -9,7 +9,7 @@
 </head>
 <body>
     <section>
-        <form>
+        <form action="get_data.php" method="POST">
             <center><img class="logo" src="images/mail-flat.png" alt="mailto"><center>
             <table>
                 <tr>
@@ -34,11 +34,12 @@
                 </tr>
                 <tr>
                     <td class="last" colspan="3">
-                        <center><a class="btn" href="">Register</a></center>
+                        <center><a class="btn" href="get_data.php">Register</a></center>
                     </td>
                 </tr>
             </table>
         </form>
     </section>
 </body>
+
 </html>
