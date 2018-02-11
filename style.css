@@ -1,10 +1,9 @@
 body{
-    padding: 25px;
+    padding: 8%;
     margin: 0;
     background-image: url("images/bg.jpg");
     background-repeat: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
 }
 
 section{
@@ -52,8 +51,8 @@ a{
     text-decoration: none;
     color: white;
     background-color: tomato;
-    padding: 15px 100px;
-    border-radius: 2px;
+    padding: 12px 100px;
+    border-radius: 5px;
     transition: .5s ease;
 }
 
