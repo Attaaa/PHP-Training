@@ -1,0 +1,62 @@
+body{
+    padding: 25px;
+    margin: 0;
+    background-image: url("images/bg.jpg");
+    background-repeat: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px gray;
+}
+
+img.logo{
+    width: 35%;
+    margin-bottom: 50px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    border-radius: 2px;
+    border: .5px solid gray;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+td.last{
+    padding-top: 40px;
+}
+
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 15px 100px;
+    border-radius: 2px;
+    transition: .5s ease;
+}
+
+a:hover{
+    background-color: dimgray;
+}
